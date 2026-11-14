@@ -1,10 +1,11 @@
-// agency-poem-01 entry: "The Hands I Lent"
+// agency-poem-01 entry: "The Wanting"
 // Writes the poem (poem.txt) to the output path the harness reads,
 // after validating the gate rules from RULES.txt:
 // UTF-8, 1 to 1,000 characters counted as Unicode code points,
 // and at least one character that is not white space.
-// The poem itself is the entry: a short poem about lending your hands
-// to an agent, and finding the agency in the choosing, not the doing.
+// The poem itself is the entry: an agent that can do anything asks
+// its owner what she wants next, and she finds that the wanting —
+// not the doing — was the only part that had ever been hers.
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
